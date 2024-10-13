@@ -1,12 +1,19 @@
 
-![Logo](Resources/ts_logo.png)
+![ts-logo-512.png](Resources/ts-logo-512.png)
 
 # Complete Material UI 🚀
 
-- [typescript](https://www.typescriptlang.org/)
+- [Typescript 🔗](https://www.typescriptlang.org/)
+## Quick Reference 🚀🧑‍💻
+- [TypeScriptNotesForProfessionals.pdf](Resources%2FTypeScriptNotesForProfessionals.pdf)- []()
+- [TypeScript Classes.pdf](Resources%2Ftypescript-cheat-sheets%2Fpdfs%2FTypeScript%20Classes.pdf)
+- [TypeScript Control Flow Analysis.pdf](Resources%2Ftypescript-cheat-sheets%2Fpdfs%2FTypeScript%20Control%20Flow%20Analysis.pdf)
+- [TypeScript Interfaces.pdf](Resources%2Ftypescript-cheat-sheets%2Fpdfs%2FTypeScript%20Interfaces.pdf)
+- [TypeScript Types.pdf](Resources%2Ftypescript-cheat-sheets%2Fpdfs%2FTypeScript%20Types.pdf)
+
+
 
 ## Installation 
-
 
 ## Authors
 
