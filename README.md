@@ -1,7 +1,7 @@
 
 ![ts-logo-512.png](Resources/ts-logo-512.png)
 
-# Complete Material UI 🚀
+# Complete Typescript 🚀
 
 - [Typescript 🔗](https://www.typescriptlang.org/)
 ## Quick Reference 🚀🧑‍💻
