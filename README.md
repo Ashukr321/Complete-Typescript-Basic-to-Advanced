@@ -1,6 +1,7 @@
 
 ![ts-logo-512.png](Resources/ts-logo-512.png)
 
+
 # Complete Typescript 🚀
 
 - [Typescript 🔗](https://www.typescriptlang.org/)
@@ -12,8 +13,75 @@
 - [TypeScript Types.pdf](Resources%2Ftypescript-cheat-sheets%2Fpdfs%2FTypeScript%20Types.pdf)
 
 
+## Why we use Typescript ❓
+* TypeScript was first introduced in 2012 by Microsoft.
+* TypeScript helps catch errors early in the development process
+* TypeScript is particularly useful for large-scale applications
+* TypeScript is fully compatible with existing JavaScript code
 
 ## Installation 
+### To install  globally on your Local system 
+
+    npm install -g typescript
+
+### tsc 
+* tsc stands for TypeScript Compiler
+* tsc is used to compile TypeScript code into JavaScript code
+* tsc is the command-line interface for the TypeScript compiler
+*   tsc is used to compile a single file or adirectory of files
+>
+
+    tsc filename.ts --watch
+
+## tsc --init
+* tsc --init is a command that initializes a new TypeScript project by creating a tsconfig.json
+
+>
+    tsc --init
+>   
+    {
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "build"
+    },
+    "include": ["src/**/*"]
+    }
+
+>
+## All Primitive Data Types in TypeScript ⭐
+1. Number
+>
+    let age: number = 30;
+    let price: number = 19.99;
+2. String
+>
+    let name: string = "John Doe";
+3. Boolean
+>
+    let isActive: boolean = true;
+4. Null
+> 
+    let nullValue: null = null;
+5. Undefined
+
+> 
+    let undefinedValue: undefined = undefined;
+6.  BigInt
+>   
+    let bigIntValue: bigint = 12345678901234567890n;
+7. Symbol
+> 
+    let symbolValue: symbol = Symbol("unique identifier");
+8.   Void
+>
+    let voidValue: void = undefined;
+
+
+
+#
+
 
 ## Authors
 
