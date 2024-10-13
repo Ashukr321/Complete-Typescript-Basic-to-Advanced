@@ -71,7 +71,11 @@
 6.  BigInt
 >   
     let bigIntValue: bigint = 12345678901234567890n;
-7. Symbol
+7. Symbol :  Symbol() created by this function 
+* Unique Identifiers
+* Preventing Name Collisions
+* Private Properties
+
 > 
     let symbolValue: symbol = Symbol("unique identifier");
 8.   Void
