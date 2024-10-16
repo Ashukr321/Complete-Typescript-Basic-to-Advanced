@@ -50,7 +50,7 @@
     }
 
 >
-## All Primitive Data Types in TypeScript ⭐
+## 1. All Primitive Data Types in TypeScript ⭐
 1. Number
 >
     let age: number = 30;
@@ -84,7 +84,63 @@
 
 
 
-#
+
+## 2. 🧑‍💻Type Alias 🚀
+
+* Type aliases cannot be extended or implemented by classes
+### 1.Basic Type Alias
+>
+    type Color = 'red' | 'green' | 'blue';
+    let color: Color = 'red';
+
+
+* Type aliases in TypeScript allow you to create custom names for complex types, making your code more readable and maintainable.
+
+### 2.Custom Object Type Alias:
+>
+    type Person = {
+        name: string;
+        age: number;
+    };
+
+    let person: Person = {
+        name: "Alice",
+        age: 25,
+    };
+
+### 3.Union Type Alias
+
+>
+
+    type Result = number | string;
+
+    let value1: Result = 42;
+    let value2: Result = "Success";
+### 4.Function Type Alias
+>
+    type Calculator = (a: number, b: number) => number;
+
+    const add: Calculator = (x, y) => x + y;
+
+### 5.Combining Type Aliases
+>
+
+    type Point = {
+        x: number;
+        y: number;
+    };
+
+    type Color = {
+        color: string;
+    };
+
+    type ColoredPoint = Point & Color;
+
+    let coloredPoint: ColoredPoint = {
+        x: 10,
+        y: 20,
+        color: "red",
+    };
 
 
 ## Authors
