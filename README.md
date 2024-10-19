@@ -143,6 +143,69 @@
     };
 
 
+## 3 . Interfaces
+* Interface Defined the bluePrint of the object 
+
+        interface Person {
+            name: string;            // Required property
+            age: number;             // Required property
+            email?: string;         // Optional property
+            readonly id: number;    // Read-only property
+        }
+
+* If two interface have same name then will merge it 
+
+        interface Book {
+            name:string;
+            price:number;
+        }
+        interface Book {
+            size:number
+        }
+
+        const book:Book ={
+            name:"harry-potter",
+            price:2324,
+            size:44,
+        }
+
+        console.log(book);
+
+## 4 Unions  
+* union type allows you to define a variable that can hold multiple types
+* ( | ) This operator is use 
+
+        type Status = "active" | "inactive" | "pending";
+
+
+## 5 Generic 🚀
+* Generic is a type that can work with any data type
+* Generic is use to create reusable function or class
+
+        function identity<T>(arg: T): T {
+            return arg;
+        }
+
+        // Usage
+        const num = identity<number>(42); // num is of type number
+        const str = identity<string>("Hello"); // str is of type string
+
+* Generic syntax in arrow function 
+
+        // Generic arrow function
+
+        const identity = <T>(arg: T): T => {
+            return arg;
+        };
+
+        // Using the generic arrow function
+        const num = identity<number>(42); // num is of type number
+        const str = identity<string>("Hello"); // str is of type string
+
+        console.log(num); // Outputs: 42
+        console.log(str); // Outputs: Hello
+
+        
 ## Authors
 
 - [@Ashutosh kumar](https://github.com/Ashukr321)
